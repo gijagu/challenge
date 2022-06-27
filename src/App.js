@@ -1,12 +1,15 @@
 import React from "react";
 import Header from "./components/Header";
 import GetGifts from "./components/GetGifts";
+import SecondChallenge from "./containers/SecondChallenge";
 
 const App = () => {
   return (
     <>
       <Header />
-      <GetGifts msg="soy un componente" />
+      <GetGifts />
+      <hr />
+      <SecondChallenge />
     </>
   );
 };
